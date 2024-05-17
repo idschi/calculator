@@ -13,6 +13,10 @@
 			var num2=document.getElementById('snumber').value*1.0;
 			document.getElementById('result').innerHTML=(num1+num2)/2;
 			}
+			function multiplication()
+			{var num1=document.getElementById('fnumber').value*1.0;
+			var num2=document.getElementById('snumber').value*1.0;
+			document.getElementById('result').innerHTML=num1*num2;
 		</script>
 	</head>
 	<body>
@@ -29,6 +33,9 @@
 		</button>
 		<button onclick="average()">
 		average
+		</button>
+		<button onclick="multiplication()">
+		multiplication
 		</button>
 		<p id="result">
 		</p>
